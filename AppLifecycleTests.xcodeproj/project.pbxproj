@@ -14,6 +14,7 @@
 		B754895726A1CA5A005829F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B754895626A1CA5A005829F6 /* Assets.xcassets */; };
 		B754895A26A1CA5A005829F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B754895826A1CA5A005829F6 /* LaunchScreen.storyboard */; };
 		B754895D26A1CA5A005829F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B754895C26A1CA5A005829F6 /* main.m */; };
+		B754896526A1CEFC005829F6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B754896426A1CEFC005829F6 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		B754895926A1CA5A005829F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B754895B26A1CA5A005829F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B754895C26A1CA5A005829F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B754896326A1CEFC005829F6 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B754896426A1CEFC005829F6 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +64,11 @@
 		B754894926A1CA58005829F6 /* AppLifecycleTests */ = {
 			isa = PBXGroup;
 			children = (
+				B754896626A1CF17005829F6 /* Flow */,
 				B754894A26A1CA58005829F6 /* AppDelegate.h */,
 				B754894B26A1CA58005829F6 /* AppDelegate.m */,
 				B754894D26A1CA58005829F6 /* SceneDelegate.h */,
 				B754894E26A1CA58005829F6 /* SceneDelegate.m */,
-				B754895026A1CA58005829F6 /* ViewController.h */,
-				B754895126A1CA58005829F6 /* ViewController.m */,
 				B754895326A1CA58005829F6 /* Main.storyboard */,
 				B754895626A1CA5A005829F6 /* Assets.xcassets */,
 				B754895826A1CA5A005829F6 /* LaunchScreen.storyboard */,
@@ -74,6 +76,17 @@
 				B754895C26A1CA5A005829F6 /* main.m */,
 			);
 			path = AppLifecycleTests;
+			sourceTree = "<group>";
+		};
+		B754896626A1CF17005829F6 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				B754895026A1CA58005829F6 /* ViewController.h */,
+				B754895126A1CA58005829F6 /* ViewController.m */,
+				B754896326A1CEFC005829F6 /* SecondViewController.h */,
+				B754896426A1CEFC005829F6 /* SecondViewController.m */,
+			);
+			path = Flow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B754896526A1CEFC005829F6 /* SecondViewController.m in Sources */,
 				B754895226A1CA58005829F6 /* ViewController.m in Sources */,
 				B754894C26A1CA58005829F6 /* AppDelegate.m in Sources */,
 				B754895D26A1CA5A005829F6 /* main.m in Sources */,
